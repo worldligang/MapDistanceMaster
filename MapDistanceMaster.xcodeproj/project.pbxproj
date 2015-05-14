@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CECDD48D1B04323B00C1676D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CECDD48C1B04323B00C1676D /* main.m */; };
+		CECDD4901B04323B00C1676D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CECDD48F1B04323B00C1676D /* AppDelegate.m */; };
+		CECDD4931B04323B00C1676D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECDD4921B04323B00C1676D /* ViewController.m */; };
+		CECDD4961B04323B00C1676D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECDD4941B04323B00C1676D /* Main.storyboard */; };
+		CECDD4981B04323B00C1676D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECDD4971B04323B00C1676D /* Images.xcassets */; };
+		CECDD49B1B04323B00C1676D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECDD4991B04323B00C1676D /* LaunchScreen.xib */; };
+		CECDD4A71B04323B00C1676D /* MapDistanceMasterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CECDD4A61B04323B00C1676D /* MapDistanceMasterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CECDD4A11B04323B00C1676D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CECDD47F1B04323B00C1676D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CECDD4861B04323B00C1676D;
+			remoteInfo = MapDistanceMaster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CECDD4871B04323B00C1676D /* MapDistanceMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapDistanceMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECDD48B1B04323B00C1676D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECDD48C1B04323B00C1676D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CECDD48E1B04323B00C1676D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CECDD48F1B04323B00C1676D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CECDD4911B04323B00C1676D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CECDD4921B04323B00C1676D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CECDD4951B04323B00C1676D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CECDD4971B04323B00C1676D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CECDD49A1B04323B00C1676D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CECDD4A01B04323B00C1676D /* MapDistanceMasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapDistanceMasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECDD4A51B04323B00C1676D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECDD4A61B04323B00C1676D /* MapDistanceMasterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapDistanceMasterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CECDD4841B04323B00C1676D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECDD49D1B04323B00C1676D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CECDD47E1B04323B00C1676D = {
+			isa = PBXGroup;
+			children = (
+				CECDD4891B04323B00C1676D /* MapDistanceMaster */,
+				CECDD4A31B04323B00C1676D /* MapDistanceMasterTests */,
+				CECDD4881B04323B00C1676D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CECDD4881B04323B00C1676D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CECDD4871B04323B00C1676D /* MapDistanceMaster.app */,
+				CECDD4A01B04323B00C1676D /* MapDistanceMasterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CECDD4891B04323B00C1676D /* MapDistanceMaster */ = {
+			isa = PBXGroup;
+			children = (
+				CECDD48E1B04323B00C1676D /* AppDelegate.h */,
+				CECDD48F1B04323B00C1676D /* AppDelegate.m */,
+				CECDD4911B04323B00C1676D /* ViewController.h */,
+				CECDD4921B04323B00C1676D /* ViewController.m */,
+				CECDD4941B04323B00C1676D /* Main.storyboard */,
+				CECDD4971B04323B00C1676D /* Images.xcassets */,
+				CECDD4991B04323B00C1676D /* LaunchScreen.xib */,
+				CECDD48A1B04323B00C1676D /* Supporting Files */,
+			);
+			path = MapDistanceMaster;
+			sourceTree = "<group>";
+		};
+		CECDD48A1B04323B00C1676D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CECDD48B1B04323B00C1676D /* Info.plist */,
+				CECDD48C1B04323B00C1676D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CECDD4A31B04323B00C1676D /* MapDistanceMasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				CECDD4A61B04323B00C1676D /* MapDistanceMasterTests.m */,
+				CECDD4A41B04323B00C1676D /* Supporting Files */,
+			);
+			path = MapDistanceMasterTests;
+			sourceTree = "<group>";
+		};
+		CECDD4A41B04323B00C1676D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CECDD4A51B04323B00C1676D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CECDD4861B04323B00C1676D /* MapDistanceMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECDD4AA1B04323B00C1676D /* Build configuration list for PBXNativeTarget "MapDistanceMaster" */;
+			buildPhases = (
+				CECDD4831B04323B00C1676D /* Sources */,
+				CECDD4841B04323B00C1676D /* Frameworks */,
+				CECDD4851B04323B00C1676D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapDistanceMaster;
+			productName = MapDistanceMaster;
+			productReference = CECDD4871B04323B00C1676D /* MapDistanceMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CECDD49F1B04323B00C1676D /* MapDistanceMasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECDD4AD1B04323B00C1676D /* Build configuration list for PBXNativeTarget "MapDistanceMasterTests" */;
+			buildPhases = (
+				CECDD49C1B04323B00C1676D /* Sources */,
+				CECDD49D1B04323B00C1676D /* Frameworks */,
+				CECDD49E1B04323B00C1676D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CECDD4A21B04323B00C1676D /* PBXTargetDependency */,
+			);
+			name = MapDistanceMasterTests;
+			productName = MapDistanceMasterTests;
+			productReference = CECDD4A01B04323B00C1676D /* MapDistanceMasterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CECDD47F1B04323B00C1676D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = ligang;
+				TargetAttributes = {
+					CECDD4861B04323B00C1676D = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					CECDD49F1B04323B00C1676D = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = CECDD4861B04323B00C1676D;
+					};
+				};
+			};
+			buildConfigurationList = CECDD4821B04323B00C1676D /* Build configuration list for PBXProject "MapDistanceMaster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CECDD47E1B04323B00C1676D;
+			productRefGroup = CECDD4881B04323B00C1676D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CECDD4861B04323B00C1676D /* MapDistanceMaster */,
+				CECDD49F1B04323B00C1676D /* MapDistanceMasterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CECDD4851B04323B00C1676D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECDD4961B04323B00C1676D /* Main.storyboard in Resources */,
+				CECDD49B1B04323B00C1676D /* LaunchScreen.xib in Resources */,
+				CECDD4981B04323B00C1676D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECDD49E1B04323B00C1676D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CECDD4831B04323B00C1676D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECDD4931B04323B00C1676D /* ViewController.m in Sources */,
+				CECDD4901B04323B00C1676D /* AppDelegate.m in Sources */,
+				CECDD48D1B04323B00C1676D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECDD49C1B04323B00C1676D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECDD4A71B04323B00C1676D /* MapDistanceMasterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CECDD4A21B04323B00C1676D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CECDD4861B04323B00C1676D /* MapDistanceMaster */;
+			targetProxy = CECDD4A11B04323B00C1676D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CECDD4941B04323B00C1676D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECDD4951B04323B00C1676D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CECDD4991B04323B00C1676D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECDD49A1B04323B00C1676D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CECDD4A81B04323B00C1676D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CECDD4A91B04323B00C1676D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CECDD4AB1B04323B00C1676D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MapDistanceMaster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CECDD4AC1B04323B00C1676D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MapDistanceMaster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CECDD4AE1B04323B00C1676D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MapDistanceMasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapDistanceMaster.app/MapDistanceMaster";
+			};
+			name = Debug;
+		};
+		CECDD4AF1B04323B00C1676D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MapDistanceMasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapDistanceMaster.app/MapDistanceMaster";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CECDD4821B04323B00C1676D /* Build configuration list for PBXProject "MapDistanceMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECDD4A81B04323B00C1676D /* Debug */,
+				CECDD4A91B04323B00C1676D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECDD4AA1B04323B00C1676D /* Build configuration list for PBXNativeTarget "MapDistanceMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECDD4AB1B04323B00C1676D /* Debug */,
+				CECDD4AC1B04323B00C1676D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CECDD4AD1B04323B00C1676D /* Build configuration list for PBXNativeTarget "MapDistanceMasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECDD4AE1B04323B00C1676D /* Debug */,
+				CECDD4AF1B04323B00C1676D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CECDD47F1B04323B00C1676D /* Project object */;
+}
